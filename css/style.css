@@ -137,8 +137,9 @@ img {
             width: calc((100% / 2) - 10px);
      }
 
- }
+ 
 
- h2{
-    display: block;
- }
+h2{
+    text-align: left;
+}
+}
