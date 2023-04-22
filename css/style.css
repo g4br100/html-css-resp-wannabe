@@ -129,6 +129,8 @@ img {
  ************************************************/
 
 
+/* SMARTPHONE */
+
  @media screen and (max-width:480px) {
     .row {
         display: block;
@@ -147,3 +149,28 @@ img {
     }
 
 }
+
+
+/* TABLET */
+
+
+@media screen and (max-width:768px) {
+
+    .container{
+        max-width: 768px;
+    }
+
+} 
+
+
+/* DESKTOP */
+
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 100%;
+    }
+}
+
+
+
